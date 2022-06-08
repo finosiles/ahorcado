@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: white;
+    font-family: Inter, sans-serif;
+}
+.header{
+    margin-top: 10px;
+}
+.central{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 4em;
+    
+}
+
+
+.central_letras{
+    height: 5em;
+    align-self: center;
+    
+}
+.central_teclado{
+    display:flex;
+    flex-direction: column;
+}
+
+.central_botones{
+    
+    align-self: center;
+}
+.central_erradas{
+    height: 50px;
+    margin-top: 20px;
+    align-self: center;
+    
+}
+.juego{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction:wrap;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.central_canvas img{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+
+}
+.central_botones button{
+    color: white;
+    background-color:#0A3871;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 50px;
+    font-size: 1.5em;
+    border-radius: 20px ;
+    border-style: none;
+}
+footer{
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+    align-content: flex-end;
+}
+.footer_enlaces{
+    text-decoration:none;
+  
+    justify-content: center;
+    align-content:space-around;
+    
+    
+}
+.footer_enlaces a{
+    text-decoration: none;
+}
+
+
+span{
+    color:  #0A3871;
+    font-size: 3em;
+}
+.teclas{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.teclas button{
+
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #0A3871;
+    border-radius: 5px;
+    border-style: none;
+    margin: 3px;
+l}
+.teclas button:disabled{
+    color: #0A3871;
+    background-color: #ffff;
+    border: 1px solid #0A3871;
+    
+}
+
+#jugar:disabled{
+    color: #0A3871;
+    background-color: #ffff;
+    border: 1px solid #0A3871;
+}
+.final{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    color: #0A3871;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.final h1,button{
+    margin: 10px;
+}
+
+#reload{
+
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    
+    background-color:#0A3871 ;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#errada{
+    margin: auto;
+    color:red;
+    text-align: center;
+}
+
+#muerto{
+    width: 200px;
+}
+
